@@ -135,23 +135,31 @@ main {
 .ctp-text {
     width: 600px;
     margin-bottom: 50px;
-    margin: 60px;
     margin-top:130px;
-    margin-left: 200px;
+    margin-left: 170px;
     
   }
 
 .sub {
     font-size: 1rem;
-    margin-top: 60px;
+    margin-top: 160px;
     margin-bottom: 10px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
   }
   .sub-title {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 1rem; /* Ajuste para o tamanho desejado */
     line-height: 1.6; /* Espaçamento entre as linhas (opcional, para melhor leitura) */
   }
   .title {
     font-size: 3rem;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
   }
 
   .inp-email {
@@ -161,6 +169,7 @@ main {
   .inp-email input {
     font-size: 1rem; /* Aumenta o tamanho do texto no campo de input */
     padding: 12px; /* Espaço interno maior */
+    width: 300px;
     border-right: none;
     border: none;
     background-color: #f1efff;
