@@ -115,3 +115,7 @@ header{
     color: #5D51C3; /* Texto roxo no hover */
     transform: scale(1.03)
 }
+
+.ilustration {
+    widht: 100%
+}
