@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+header{
+    width: 100%;
+    padding: 15px 8%;
+    
+    box-shadow: 0px 0px 8px #464646;
+}
+
+#logo-container {
+    display: flex;
+    align-items: center; /* Alinha a imagem e o texto no centro verticalmente */
+    cursor: pointer;
+}
+#logo-container img {
+    height: 25px; /* Ajuste a altura da logo conforme necessário */
+    width: 25px; /* Mantém as proporções da logo */
+    margin-right: 8px;
+}
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav_list {
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+}
+
+.nav-item a {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: #797979; /* Cor inicial do texto */
+    font-size: 1rem; /* Tamanho inicial da fonte */
+    display: inline-block; /* Necessário para aplicar a transformação corretamente */
+    transition: color 0.2s ease, font-size 0.2s ease, transform 0.2s ease; /* Transição suave de cor, tamanho e escala */
+}
+
+.nav-item:hover a {
+    color: #5D51C3; /* Cor do texto ao passar o mouse */
+    font-size: 1rem; /* Aumenta o tamanho do texto */
+    transform: scale(1.03); /* Aumenta o tamanho do link */
+}
+
+
+.btn-login {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os botões */
+}
+
+/* Estilo comum para os botões */
+.btn-login button {
+    all: unset;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.4s, color 0.4s, border 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100px; /* Largura fixa para os botões */
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    border: 2px solid transparent; /* Borda invisível inicial */
+    background: transparent; /* Fundo transparente */
+}
+
+/* Link dentro do botão */
+.btn-login button a {
+    text-decoration: none;
+    color: inherit; /* Herda a cor do botão */
+}
+
+/* Estilo para o botão de cadastro */
+.btn-login .cadastre {
+    background-color: #5D51C3; /* Fundo roxo */
+}
+
+.btn-login .cadastre a {
+    color: #fff; /* Texto branco */
+}
+
+/* Estilo de hover do botão de cadastro */
+.btn-login .cadastre:hover {
+    background-color: #fff; /* Fundo branco */
+    border-color: #5D51C3; /* Borda roxa */
+}
+
+.btn-login .cadastre:hover a {
+    color: #5D51C3; /* Texto roxo no hover */
+}
+
+/* Estilo para o botão de login */
+.btn-login .login a {
+    color: #797979; /* Texto cinza para o botão de login */
+    font-size: 1rem;
+    
+    display: inline-block; /* Necessário para aplicar a transformação corretamente */
+    transition: color 0.2s ease, font-size 0.2s ease, transform 0.2s ease; /* Transição suave de cor, tamanho e escala */
+}
+
+/* Estilo de hover do botão de login */
+.btn-login .login:hover a {
+    color: #5D51C3; /* Texto roxo no hover */
+    transform: scale(1.03)
+}
