@@ -85,10 +85,7 @@ header{
 /* Estilo para o botão de cadastro */
 .btn-login .cadastre {
     background-color: #5D51C3; /* Fundo roxo */
-}
-
-.btn-login .cadastre a {
-    color: #fff; /* Texto branco */
+    color: white;
 }
 
 /* Estilo de hover do botão de cadastro */
@@ -117,5 +114,86 @@ header{
 }
 
 .ilustration {
-    widht: 100%
+    margin-left: 60px;
+    margin-top: 60px;
+    width: 859px;
+    height: 859px;
+    overflow: hidden;
 }
+.ilustration img{
+   
+    width: 100%;
+    height: auto;
+    
+}
+main {
+    display: flex; /* Cria um layout flexível */
+    gap: 20px; /* Espaço entre os elementos */
+    padding: 20px; /* Espaço interno ao redor do main */
+    
+  }
+.ctp-text {
+    width: 600px;
+    margin-bottom: 50px;
+    margin: 60px;
+    margin-top:130px;
+    margin-left: 200px;
+    
+  }
+
+.sub {
+    font-size: 1rem;
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+  .sub-title {
+    font-size: 1rem; /* Ajuste para o tamanho desejado */
+    line-height: 1.6; /* Espaçamento entre as linhas (opcional, para melhor leitura) */
+  }
+  .title {
+    font-size: 3rem;
+  }
+
+  .inp-email {
+    display: inline-flex;
+    
+  }
+  .inp-email input {
+    font-size: 1rem; /* Aumenta o tamanho do texto no campo de input */
+    padding: 12px; /* Espaço interno maior */
+    border-right: none;
+    border: none;
+    background-color: #f1efff;
+    font-size: 1rem;
+    border-radius: 6px 0px 0px 6px;
+    
+  }
+  
+  .inp-email button {
+    font-size: 1rem; /* Tamanho do texto no botão */
+    padding: 12px 24px; /* Botão mais espaçoso */
+    border-left: none;
+    border: none;
+    width: 100px; /* Largura fixa para os botões */
+    border-radius: 0px 6px 6px 0px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 2px solid transparent; /* Borda invisível inicial */
+    background: transparent; /* Fundo transparente */
+    transition: background-color 0.4s, color 0.4s, border 0.4s;
+    background-color: #5D51C3;
+  }
+  
+  button a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+button:hover {
+    background-color: #fff; /* Fundo branco */
+    border-color: #5D51C3; /* Borda roxa */
+    border: solid 1px rebeccapurple
+  }
+  button:hover a {
+    color: #5D51C3;
+  }
