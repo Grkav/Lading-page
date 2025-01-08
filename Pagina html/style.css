@@ -127,6 +127,7 @@ header{
     
 }
 main {
+    justify-content: center;
     display: flex; /* Cria um layout flexível */
     gap: 20px; /* Espaço entre os elementos */
     padding: 20px; /* Espaço interno ao redor do main */
